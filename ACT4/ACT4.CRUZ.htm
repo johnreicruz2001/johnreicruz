@@ -1,0 +1,143 @@
+<html>
+<style>
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: linear-gradient(lightgray,white);
+}
+.bg{
+	width:100%;
+	height:50%;
+	object-fit: cover;
+	transition: 1s ease;
+}
+.bg:hover{
+	height: 65%;
+}
+.image{
+	margin:80px;
+	position: relative;
+	bottom: 200px;
+	display: block;
+}	
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+.text{
+	font-family: Poppins;
+	font-size; 50px;
+	transiton: 1s ease;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  
+  }
+.sulyap{
+	position: relative;
+	width: 50%;
+}
+.sulyap:hover .overlay{
+	opacity: 1;
+	
+	}
+.sulyap {
+	padding: 0 6px;
+	float: left;
+	width: 49%;
+}
+.title{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-family: Bebas Neue;
+	font-size: 100px;
+	color: white;
+}
+.menu{
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Bebas Neue;
+	font-size: 70px;
+	color: black;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5%;
+
+}
+.favorite{
+	position: absolute;
+	top: 34%;
+	left: 7%;
+	font-family: Bebas Neue;
+	font-size: 30px;
+	color: white;
+}
+.user{
+	position: absolute;
+	top: 34%;
+	left: 57%;
+	font-family: Bebas Neue;
+	font-size: 30px;
+	color: white;
+}
+.white{
+	margin: 80px;
+	position: absolute;
+	bottom:417px;
+	width:200px;
+	height:83.8px;
+	left:495px;
+	transition: transform 1s;
+}
+.menusett:hover .white{
+	
+	transform: scale(3,1);
+}
+
+
+</style>
+	<div class="menusett">
+	<img class="white" src="C:\Users\CRUZ\Desktop\ACT4\bg1(cropped).jpg">
+	<div class="menu">Menu</div>
+	<img class="bg" src="C:\Users\CRUZ\Desktop\ACT4\bg.jpg">
+	</div>
+	<div class="favorite">These are the list of websites that has been<br> useful to me in everyday living.</div>
+	<div class="User">This is the information that will make you know<br> who I am.</div>
+	</div>
+	<div class="sulyap">
+	<div class="image">
+		<a href="file:///C:/Users/CRUZ/Desktop/ACT4/ACT4.CRUZ-1.htm">
+			<img src="C:\Users\CRUZ\Desktop\ACT4\bg1.jpg" width="500" height="400">
+			<div class="overlay"> 
+				<div class="text">Favorite</div> 
+			</div>
+		</a>
+	</div>
+	</div>
+	<div class="sulyap">
+	<div class="image">
+		<a href="file:///C:/Users/CRUZ/Desktop/ACT4/ACT4.CRUZ-2.htm">
+		<img src="C:\Users\CRUZ\Desktop\ACT4\bg1.jpg" width="500" height="400">
+		<div class="overlay">
+		<div class="text">User</div>
+		</div>
+	</div>
+	</div>
+	
+	
+</html>
